@@ -266,6 +266,7 @@ p{
     display: flex;
     justify-content: space-between;
     gap: 10px;
+    flex-wrap: wrap;
 }
 .logos-cards{
     flex: 0 0 calc(20% - 10px);
@@ -277,6 +278,14 @@ p{
     object-fit: cover;
     display: block;
     border-radius: 50%;
+}
+@media screen and (max-width: 780px) {
+    .section-logos{
+        justify-content: center;
+    }
+    .logos-cards{
+        flex: 0 0 calc(33.3% - 10px);
+    }
 }
 /*Footer
 ========*/
