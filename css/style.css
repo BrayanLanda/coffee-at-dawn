@@ -259,6 +259,25 @@ p{
         gap: 5px;
     }
 }
+
+/*Section logos
+==============*/
+.section-logos{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.logos-cards{
+    flex: 0 0 calc(20% - 10px);
+    opacity: 0.3;
+}
+.logos-cards>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 50%;
+}
 /*Footer
 ========*/
 .footer{
